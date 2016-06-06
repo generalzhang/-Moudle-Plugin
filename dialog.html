@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dialog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width"> 
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <button type="button" id="showDialog">Click Me</button>
+    <script src="https://dn-cdnjsnet.qbox.me/jquery/1.10.2/jquery.js"></script>
+    <script src="dialog.js"></script>
+    <script>
+    $(document).ready(function () {
+        dialog = $('#showDialog').dialog({title:'标题'});
+    })
+    </script>
+</body>
+</html>
